@@ -62,8 +62,8 @@ class Game{
                          textSize(20);
                          // add code to display the player name on the respective basket
                          textSize(32);
-                         text(allPlayers.player1.name,(windowWidth/2)-allPlayers.player1.distance-150,500);
-                         text(allPlayers.player2.name,(windowWidth/2)-allPlayers.player2.distance-150,500);
+                         text(allPlayers.player1.name,(1000/2)-allPlayers.player1.distance,500);
+                         text(allPlayers.player2.name,(1000/2)-allPlayers.player2.distance,500);
                          fill(0, 102, 153);
                          
                      }
